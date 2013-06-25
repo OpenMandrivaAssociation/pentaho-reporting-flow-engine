@@ -7,19 +7,19 @@ Group:		System/Libraries
 Url:		http://reporting.pentaho.org/
 Source0:	http://downloads.sourceforge.net/jfreereport/flow-engine-%{version}.zip
 BuildRequires:	ant
+BuildRequires:	flute
 BuildRequires:	java-devel
 BuildRequires:	jpackage-utils
 BuildRequires:	libbase
-BuildRequires:	libserializer
-BuildRequires:	libloader
 BuildRequires:	libfonts
-BuildRequires:	pentaho-libxml
-BuildRequires:	xml-commons-apis
-BuildRequires:	librepository
-BuildRequires:	sac
-BuildRequires:	flute
-BuildRequires:	liblayout
 BuildRequires:	libformula
+BuildRequires:	liblayout
+BuildRequires:	libloader
+BuildRequires:	librepository
+BuildRequires:	libserializer
+BuildRequires:	pentaho-libxml
+BuildRequires:	sac
+BuildRequires:	xml-commons-apis
 Requires:	java
 Requires:	jpackage-utils
 Requires:	libbase >= 1.1.3
