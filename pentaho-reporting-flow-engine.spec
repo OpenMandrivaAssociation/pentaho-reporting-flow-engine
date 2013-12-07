@@ -1,7 +1,7 @@
 Summary:	Pentaho Flow Reporting Engine
 Name:		pentaho-reporting-flow-engine
 Version:	0.9.4
-Release:	4
+Release:	5
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://reporting.pentaho.org/
