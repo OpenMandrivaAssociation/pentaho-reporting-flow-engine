@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name: pentaho-reporting-flow-engine
 Version: 0.9.4
-Release: 8.2
+Release: 8.3
 Summary: Pentaho Flow Reporting Engine
 License: LGPLv2+
 Epoch: 1
