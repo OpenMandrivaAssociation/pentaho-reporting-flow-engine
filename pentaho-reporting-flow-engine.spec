@@ -8,11 +8,11 @@ Epoch: 1
 
 Source: http://downloads.sourceforge.net/jfreereport/flow-engine-%{version}.zip
 URL: http://reporting.pentaho.org/
-BuildRequires: ant, java-devel, javapackages-utils, libbase, libserializer
+BuildRequires: ant, java-devel, javapackages-tools, libbase, libserializer
 BuildRequires: libloader, libfonts, pentaho-libxml, xml-commons-apis
 BuildRequires: librepository, sac, flute, liblayout, libformula
 Buildroot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-Requires: java, javapackages-utils, libbase >= 1.1.3, libfonts >= 1.1.3
+Requires: java, javapackages-tools, libbase >= 1.1.3, libfonts >= 1.1.3
 Requires: pentaho-libxml, libformula >= 1.1.3, librepository >= 1.1.3
 Requires: sac, flute, liblayout >= 0.2.10, libserializer
 BuildArch: noarch
