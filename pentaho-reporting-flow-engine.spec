@@ -7,7 +7,7 @@ License: LGPLv2+
 Epoch: 1
 
 Source: http://downloads.sourceforge.net/jfreereport/flow-engine-%{version}.zip
-URL: http://reporting.pentaho.org/
+URL: https://reporting.pentaho.org/
 BuildRequires: ant, java-devel, javapackages-tools, libbase, libserializer
 BuildRequires: libloader, libfonts, pentaho-libxml, xml-commons-apis
 BuildRequires: librepository, sac, flute, liblayout, libformula
